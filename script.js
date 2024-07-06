@@ -6,7 +6,7 @@ convertBtn.addEventListener("click", convert)
 function convert() {
   let input = document.getElementById("number").value;
   let result = "";
-  if (input == -1) {
+  if (input <= 0) {
       output.innerText = "Please enter a number greater than or equal to 1";
       return
   } else if (input >= 4000) {
@@ -91,6 +91,5 @@ while (input < 5 && input > 0) {
     result += no1
     input -= 1
 }
-  console.log(input)
   output.innerText = result;
 }
