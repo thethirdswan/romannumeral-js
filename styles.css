@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+}
+  
+#output {
+    border: 3px solid blue;
+    margin: 5px;
+}
